@@ -1,0 +1,89 @@
+<html>
+<head>
+<script>
+function display(x)
+{
+switch(x)
+{
+case "first":
+    document.getElementById("right1").innerHTML='<div class="left1"><h3>FirstSem</h3><a href="cd.pdf" download>ptnm</a><a href="#">download</a><a href="#">m1</a><a href="#">c</a><a href="#">elcs</a></div>';
+	document.getElementById("right2").innerHTML='<div class="left2"><h3>SecondSem</h3><a href="#">ptnm</a><a href="#">m1</a><a href="#">c</a><a href="#">elcs</a></div>';
+	break;
+case "second":
+    document.getElementById("left").innerHTML="second";
+	break;
+case "third":
+    document.getElementById("right1").innerHTML='<div class="left1"><a href="https://www.filehosting.org/file/details/771237/UML%20Unit-02.pdf" download>ooad</a><a href="https://drive.google.com/open?id=10FnUK6NqtWlucI6u8DL7BHg1DoxwXjhH" download>ooad1</a></div>';
+	break;
+case "fourth":
+    document.getElementById("left").innerHTML="fourth";
+	break;
+   }
+}
+
+</script>
+<style>
+a{
+text-decoration:none;
+display:block;
+color: hotpink;
+background-color:white;
+padding: 12px 14px;
+text-align:center;
+border-radius: 5px;
+border-bottom: 6px solid red;
+}
+.sep{
+border:2px solid black;
+border-radius:10px;}
+
+.links{
+position:relative;}
+
+.sep{
+width: 100%;
+height: 50%;
+background-color:blue;
+display:flex;
+flex-direction: row;
+}
+
+.inav{
+width: 100%;}
+
+.left{
+width: 20%;
+height: auto;
+background-color:cyan;}
+
+.right{
+width:80%;
+background-color:pink;
+display: flex;
+flex-direction: row;}
+.right1{
+width: 50%;
+background-color:green;}
+.right2{
+width: 50%;
+background-color:yellow;}
+
+</style>
+</head>
+<body>
+<iframe src="link.html" scrolling="no" frameborder="no" class="inav"></iframe>
+<br>
+<div class="sep" id="one">
+<div class="left" id="left">
+<a href="#" onclick="display(this.name)" name="first">first year</a>
+<a href="#">second year</a>
+<a href="#"  onclick="display(this.name)" name="third">third year</a>
+<a href="#">fourth year</a>
+</div>
+<div class="right" id="right">
+<div class="right1" id="right1"></div>
+<div class="right2" id="right2"></div>
+</div>
+</div>
+</body>
+</html>
