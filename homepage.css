@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .mySlides {
     display:none;
     width: 100%;
@@ -36,43 +35,3 @@
     #about{
     font-size:18px;}
     }
-=======
-.mySlides {
-    display:none;
-    width: 100%;
-    height: 80%;
-    }
-    #about{
-    font-size:2vw;
-    font-family:rachana;
-    position:relative;
-    }
-    .pro{
-    font-size: 2vw;
-    background-color:gray;
-    }
-    .slide{
-    float:right;
-    position:relative;
-    width: 60%;
-    height: auto;}
-    .inav{
-    width: 100%;}
-    /* <!-- 
-    1.small phones
-    2.large phones
-    3.tablets
-    4.laptops,desktops
-    5.large laptops,desktops--> 
-    */
-    @media only screen and (max-width: 768px){
-    }
-    @media only screen and (max-width: 992px){
-    .slide{
-    width: 100%;
-    height:50%;}
-    #about{
-    font-size:18px;}
-    }
->>>>>>> dd9b1d48f6da202bf2a3b97f8e35957dbc2a662a
-    
