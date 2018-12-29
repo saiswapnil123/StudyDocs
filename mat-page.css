@@ -1,3 +1,96 @@
+<<<<<<< HEAD
+a{
+text-decoration:none;
+display:block;
+color: gray;
+background-color:white;
+padding: 12px 14px;
+text-align:center;
+border-radius: 5px;
+}
+#first:hover{
+-webkit-transform: rotateX(360deg);
+transform: rotateX(360deg);
+}
+.sep{
+border:2px solid black;
+border-radius:10px;}
+
+.links{
+position:relative;}
+
+.sep{
+width: 100%;
+height: auto;
+background-color:gray;
+display:flex;
+flex-direction: row;
+flex-wrap:nowrap;
+}
+
+.inav{
+width: 100%;}
+
+.left{
+width: 20%;
+height: auto;
+}
+
+.right{
+width:80%;
+display: flex;
+flex-direction: row;}
+.right1{
+width: 50%;
+background-color:gray;
+padding:5px 4px 0px 4px;}
+.right2{
+width: 50%;
+background-color:gray;
+padding: 05px 4px 0px 4px;}
+ 
+@media only screen and (max-width:992px){
+
+.sep{
+    display :flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.left{
+    width: 100%;
+    height:50%;
+    flex-direction: row;
+}
+.right1{
+    width: 100%;
+    height:50%;
+    background-color:none;
+
+}
+.right2{
+    width: 100%;
+    height:50%;
+    background-color:none;
+    padding:0px 2px 0px 2px;
+}
+.right{
+    width: 100%;
+    padding:0px 2px 0px 2px;
+}
+
+}  
+.mySlides{
+    display:none;}
+    .dec{
+        orientation:none;
+        display:block;
+        background-color: none;
+      }
+      .dec a:hover{
+      background-color: #4CAF50;
+      border:1px solid white;
+=======
 a{
 text-decoration:none;
 display:block;
@@ -84,4 +177,5 @@ padding: 05px 4px 0px 4px;}
       .dec a:hover{
       background-color: #4CAF50;
       border:1px solid white;
+>>>>>>> dd9b1d48f6da202bf2a3b97f8e35957dbc2a662a
       }
