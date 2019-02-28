@@ -34,7 +34,10 @@ width: 100%;}
 width: 20%;
 height: auto;
 }
-
+.left1{
+    column-span: 5px;
+    row-gap:5px;
+}
 .right{
 width:80%;
 background-color:pink;
